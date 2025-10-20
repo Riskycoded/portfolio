@@ -1,20 +1,30 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Cards";
+import Reacty from '../assets/react.svg'
+import Javascriptimage from '../assets/javascriptimage.jfif'
+import Typescriptimage from '../assets/typescriptimage.png'
+import TailwindImage from '../assets/tailwindimage.png'
+import Htmlimage from '../assets/htmlimage.png'
+import Cssimage from '../assets/cssimage.png'
+import Gitimage from '../assets/gitimage.png'
+import Githubimage from '../assets/githubimage.png'
+import Seoimage from '../assets/seoimage.png'
+import Viteimage from '../assets/viteimage.jfif'
 
 function Technologies() {
     const [isLoading, setIsLoading] = useState(true);
     
     const technologies = [
-        { icon: "./src/assets/react.svg", title: "React" },
-        { icon: "./src/assets/javascriptimage.jfif", title: "JavaScript" },
-        { icon: "./src/assets/typescriptimage.png", title: "TypeScript" },
-        { icon: "./src/assets/tailwindimage.png", title: "Tailwind CSS" },
-        { icon: "./src/assets/htmlimage.png", title: "HTML5" },
-        { icon: "./src/assets/cssimage.png", title: "CSS3" },
-        { icon: "./src/assets/gitimage.png", title: "Git" },
-        { icon: "./src/assets/githubimage.png", title: "GitHub" },
-        { icon: "./src/assets/seoimage.png", title: "Seo Optimization" },
-        { icon: "./src/assets/viteimage.jfif", title: "Vite" }
+        { icon: {Reacty}, title: "React" },
+        { icon: {Javascriptimage}, title: "JavaScript" },
+        { icon: {Typescriptimage}, title: "TypeScript" },
+        { icon: {TailwindImage}, title: "Tailwind CSS" },
+        { icon: {Htmlimage}, title: "HTML5" },
+        { icon: {Cssimage}, title: "CSS3" },
+        { icon: {Gitimage}, title: "Git" },
+        { icon: {Githubimage}, title: "GitHub" },
+        { icon: {Seoimage}, title: "Seo Optimization" },
+        { icon: {Viteimage}, title: "Vite" }
     ];
 
     useEffect(() => {
