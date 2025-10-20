@@ -15,16 +15,16 @@ function Technologies() {
     const [isLoading, setIsLoading] = useState(true);
     
     const technologies = [
-        { icon: {Reacty}, title: "React" },
-        { icon: {Javascriptimage}, title: "JavaScript" },
-        { icon: {Typescriptimage}, title: "TypeScript" },
-        { icon: {TailwindImage}, title: "Tailwind CSS" },
-        { icon: {Htmlimage}, title: "HTML5" },
-        { icon: {Cssimage}, title: "CSS3" },
-        { icon: {Gitimage}, title: "Git" },
-        { icon: {Githubimage}, title: "GitHub" },
-        { icon: {Seoimage}, title: "Seo Optimization" },
-        { icon: {Viteimage}, title: "Vite" }
+        { icon: Reacty, title: "React" },
+        { icon: Javascriptimage, title: "JavaScript" },
+        { icon: Typescriptimage, title: "TypeScript" },
+        { icon: TailwindImage, title: "Tailwind CSS" },
+        { icon: Htmlimage, title: "HTML5" },
+        { icon: Cssimage, title: "CSS3" },
+        { icon: Gitimage, title: "Git" },
+        { icon: Githubimage, title: "GitHub" },
+        { icon: Seoimage, title: "Seo Optimization" },
+        { icon: Viteimage, title: "Vite" }
     ];
 
     useEffect(() => {

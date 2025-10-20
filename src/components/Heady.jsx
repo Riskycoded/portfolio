@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../assets/riskycody.png'
 
 function Heady() {
   return (
@@ -7,7 +8,7 @@ function Heady() {
       <div className="flex-shrink-0">
         <a href="#herosection">
           <img
-            src="./src/assets/riskycody.png"
+            src={Logo}
             alt="RiskyCody Logo"
             className="w-20 h-20 sm:w-28 sm:h-28 object-contain transition-transform duration-300 hover:scale-110"
           />
