@@ -13,7 +13,7 @@ function Years() {
                     observer.disconnect();
                 }
             },
-            { threshold: 0.5 } // Trigger when 30% of the section is visible
+            { threshold: 0.5 }
         );
         observer.observe(sectionRef.current);
         return () => observer.disconnect();
@@ -21,8 +21,8 @@ function Years() {
 
     useEffect(() => {
         if (isVisible) {
-            const duration = 2000; // 2 seconds
-            const steps = 100; // Number of animation steps
+            const duration = 2000;
+            const steps = 100;
             const incrementTime = duration / steps;
 
             const targetCounts = { experience: 5, projects: 20, satisfaction: 100 };
@@ -52,27 +52,27 @@ function Years() {
     }, [isVisible]);
 
     return (
-        <div className="bg-blue-800 py-10" ref={sectionRef}>
-            <div className="flex gap-20 justify-center">
+        <div className="bg-blue-800 py-10 px-4" ref={sectionRef}>
+            <div className="flex flex-col md:flex-row gap-8 md:gap-20 justify-center max-w-6xl mx-auto">
                 <div className="text-center">
-                    <h1 className="text-3xl text-white">
-                        <span className="text-5xl font-extrabold">{counts.experience}</span> <span>+</span>
+                    <h1 className="text-2xl md:text-3xl text-white">
+                        <span className="text-4xl md:text-5xl font-extrabold">{counts.experience}</span> <span>+</span>
                         <br />
                         Years Experience
                     </h1>
                 </div>
 
                 <div className="text-center">
-                    <h1 className="text-3xl text-white">
-                        <span className="text-5xl font-extrabold">{counts.projects}</span> <span>+</span>
+                    <h1 className="text-2xl md:text-3xl text-white">
+                        <span className="text-4xl md:text-5xl font-extrabold">{counts.projects}</span> <span>+</span>
                         <br />
                         Projects Done
                     </h1>
                 </div>
 
                 <div className="text-center">
-                    <h1 className="text-3xl text-white">
-                        <span className="text-5xl font-extrabold">{counts.satisfaction}</span> <span>%</span>
+                    <h1 className="text-2xl md:text-3xl text-white">
+                        <span className="text-4xl md:text-5xl font-extrabold">{counts.satisfaction}</span> <span>%</span>
                         <br />
                         Client Satisfaction
                     </h1>

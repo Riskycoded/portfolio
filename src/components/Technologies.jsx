@@ -82,9 +82,13 @@ function Technologies() {
 function SkeletonCard() {
     return (
         <div className="w-40 h-40 bg-gray-200 rounded-lg animate-pulse flex flex-col items-center justify-center gap-3">
-            <div className="w-16 h-16 bg-gray-300 rounded-full"></div>
-            <div className="w-24 h-4 bg-gray-300 rounded"></div>
-        </div>
+-            <div className="w-16 h-16 bg-gray-300 rounded-full"></div>
+-            <div className="w-24 h-4 bg-gray-300 rounded"></div>
+-        </div>
++        <div className="w-full sm:w-40 h-40 bg-gray-200 rounded-lg animate-pulse flex flex-col items-center justify-center gap-3">
++            <div className="w-16 h-16 bg-gray-300 rounded-full"></div>
++            <div className="w-24 h-4 bg-gray-300 rounded"></div>
++        </div>
     );
 }
 

@@ -1,12 +1,15 @@
 import React from "react";
 
-function Footer() { 
+function Footer() {
     return (
-        <div>
-            <p  className="items-center bg-black text-gray-100 text-center text-lg">© 2025 <span className="text-white font-bold">Adebanjo Michael.</span> All rights reserved.</p>
-        </div>
-    )
-
-};
+        <footer className="bg-gray-900 text-white py-8 px-4 w-full text-center">
+            <div className="max-w-6xl mx-auto">
+                <p className="text-sm md:text-base">
+                    © 2025 Adebanjo Michael. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    );
+}
 
 export default Footer;
