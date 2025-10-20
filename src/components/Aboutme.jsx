@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from '../assets/profilee.jpg'
 
 function Aboutme() {
     return (
@@ -9,7 +10,7 @@ function Aboutme() {
 
             <div className="flex flex-row gap-10 justify-center p-10">
             <div>
-                <img src="./src/assets/profilee.jpg" alt="" />
+                <img src={Profile} alt="" />
             </div>
              <div className="flex items-center justify-center min-h-screen">
                 <p className="text-2xl">I'm a passionate frontend developer who recently completed an intensive web development course. I love creating clean, responsive websites that provide excellent user experiences.

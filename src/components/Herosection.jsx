@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Headboy from '../assets/headboy.jpg'
 
 function HeroSection() {
     const [isLoading, setIsLoading] = useState(true);
@@ -63,7 +64,7 @@ function HeroSection() {
             {/* Right Column - Image */}
             <div className="w-1/2 animate-slide-in-right">
                 <img 
-                    src="./src/assets/headboy.jpg" 
+                    src={Headboy} 
                     alt="Profile" 
                     className="w-full h-auto rounded-lg animate-flip-in-right"
                 />
