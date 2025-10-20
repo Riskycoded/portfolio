@@ -1,5 +1,5 @@
 import React from "react";
-import Ss from "../components/ss";
+import Ss from "./ss";
 
 function Projects() {
   const projects = [
