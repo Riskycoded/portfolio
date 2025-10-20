@@ -1,7 +1,0 @@
-{
-  "root": ".",
-  "outputDirectory": "dist",
-  "engines": {
-    "node": "18.x"
-  }
-}

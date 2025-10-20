@@ -5,7 +5,7 @@ export const Ss = ({ title, imagify, description, pone, ptwo, pthree, pfour }) =
         <div className="flex flex-col bg-white w-1/2 h-[700px] items-start rounded-3xl overflow-hidden justify-between"
              style={{
                  boxShadow: `
-                     0 10px 30px rgba(37, 99, 235, 0.2),
+                     0  10px 30px rgba(37, 99, 235, 0.2),
                      0 20px 60px rgba(37, 99, 235, 0.15),
                      0 30px 90px rgba(37, 99, 235, 0.1),
                      0 -5px 20px rgba(37, 99, 235, 0.05)

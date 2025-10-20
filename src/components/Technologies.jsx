@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Card from "../Components/Cards";
+import Card from "./Cards";
 
 function Technologies() {
     const [isLoading, setIsLoading] = useState(true);

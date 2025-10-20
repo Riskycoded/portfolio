@@ -12,7 +12,7 @@ function HeroSection() {
 
     if (isLoading) {
         return (
-            <div className="flex items-center justify-between p-12 bg-blue-800 min-h-[400px] animate-pulse">
+            <div id="hersection" className="flex items-center justify-between p-12 bg-blue-800 min-h-[400px] animate-pulse">
                 {/* Left Column - Text Content Skeleton */}
                 <div className="w-1/2 space-y-6">
                     <div className="h-12 bg-gray-300 rounded w-1/3"></div>
@@ -36,7 +36,7 @@ function HeroSection() {
     }
 
     return (
-        <div className="flex items-center justify-between p-12 pt-20 bg-blue-800 text-white min-h-[400px]">
+        <div id="hersection" className="flex items-center justify-between p-12 pt-20 bg-blue-800 text-white min-h-[400px]">
             {/* Left Column - Text Content */}
             <div className="w-1/2 space-y-6">
                 <h1 className="text-6xl font-extrabold">Hello!</h1>

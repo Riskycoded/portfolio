@@ -19,7 +19,7 @@ function Heady() {
         <ul className="flex gap-6 sm:gap-12">
           <li>
             <a
-              href="#herosection"
+              href="#hersection"
               className="text-[#333333] hover:text-[#2563eb] text-lg sm:text-2xl font-medium transition-all duration-200 hover:scale-110 inline-block"
             >
               Home
